@@ -18,6 +18,7 @@ app.use((req, res, next) => {
   next();
 });
 
+
 // ROUTES + CONDITION
 app.use("/api/workouts", workoutsRoutes);
 
@@ -31,3 +32,5 @@ mongoose
     });
   })
   .catch((error) => console.log(error));
+
+  

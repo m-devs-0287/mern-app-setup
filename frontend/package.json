@@ -1,4 +1,4 @@
-{
+{ 
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "proxy": "http://localhost:3001"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -22,7 +21,7 @@
     "vite": "^4.1.0"
   },
   "main": "vite.config.js",
-  "author": "",
+  "author": "Manuel Nunez",
   "license": "ISC",
-  "description": ""
+  "description": "MERN application setup"
 }
